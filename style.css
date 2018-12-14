@@ -64,6 +64,15 @@ body{
     color: black;
 }
 
+#starTitle {
+    text-align: center;
+    background-color: #687a8f;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 10px;
+    color: black;
+    font-size: 40px;
+}
 #contact-me h2{
     text-align: center;
     background-color: white;

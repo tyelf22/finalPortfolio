@@ -540,7 +540,7 @@ let results = [
 ]
 
 fetch('https://swapi.co/api/films/1')
-  .then(function(response) {
+  .then(function(response) {                 
     return response.json();
   })
   .then(function(myJson) {
@@ -550,7 +550,7 @@ fetch('https://swapi.co/api/films/1')
   });
 
 
-  results.forEach( (film) => {
+  results.forEach( (film) => {                          //iteration through an array using loops and Array methods
       let listItem = document.createElement("li")
       listItem.textContent = film.title
       allMovieTitles.appendChild(listItem)
