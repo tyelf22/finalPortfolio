@@ -1,0 +1,214 @@
+body{
+    background-color: #efefef;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 17;
+    
+}
+
+.nav {
+    background-color: #687a8f;
+    color: #ffffff;
+    list-style: none;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-top: -10px;
+    box-shadow: 0px 1px 10px grey;
+    
+}
+.nav > li{
+    display: inline-block;
+    float: right;
+    margin: 25px 25px;
+    padding-right: 40px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.nav > li > a{
+    
+    text-decoration: none;
+    color: white;
+}
+
+.nav > li > a:hover {
+    color: black;
+}
+
+#welcome-section{
+    
+    text-align: center;
+    background-color: white;
+    padding: 250px;
+    overflow: hidden;
+}
+
+
+.main-project-title{
+    text-align: center;
+    background-color: #687a8f;
+    padding: 10px;
+    color: white;
+}
+
+#projects .project-title{
+    padding: 5px;
+    text-align: center;
+    background-color: #687a8f;
+}
+
+.project-title a:hover{
+    color: black;
+}
+
+#contact-me h2{
+    text-align: center;
+    background-color: white;
+    color: black;
+    padding: 40;
+    margin: 0;
+}
+
+#contact-me ul{
+    background-color: white;
+    color: white;
+    padding: 100px;
+    margin: 0;
+    text-align: center;
+    
+}
+
+
+#contact-me li{
+    list-style: none;
+    display: inline-block;
+    
+}
+
+/* Beginning of star wars styling*/
+.images{
+    background-color: #687a8f;
+    display: flex;
+}
+.images img{
+    flex: 1;
+    border: 1px solid #687a8f;
+}
+
+.pageBackground{
+    display: flex;
+    width: 100%;
+    
+
+}
+.starWars1{
+    border: solid 1px #687a8f;
+    background-color: black;
+    color: white;
+    flex: 1;
+}
+.starWars2{
+    border: solid 1px #687a8f;
+    background-color: black;
+    color: white;
+    flex: 1;
+    align-items: center;
+}
+.starWars3{
+    border: solid 1px #687a8f;
+    background-color: black;
+    color: white;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+#theTitles {
+    text-align: center;
+}
+
+#allMovieTitles {
+    list-style-type: none;
+    text-align: center;
+}
+
+#directorsTitle {
+    text-align: center;
+    width: 100%;
+}
+
+#directors {
+    text-align: center;
+    list-style-type: none;
+}
+
+#movieTitle {
+    text-align: center;
+    width: 100%;
+}
+
+#openingCrawl {
+    text-align: center;
+    width: 100%;
+    height: 200px;
+}
+
+
+
+
+.pageBackground p {
+    width: 200px;
+}
+
+.pageBackground {
+    background-color: #687a8f;
+}
+
+.fixSpacing {
+    clear: both;
+}
+
+#contact-me > ul > li > a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+#profile-link {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  font-size: 25px;
+  color: white;
+  line-height: 150px;
+  text-align: center;
+  margin: 20px;
+  background: black;
+}
+
+#profile-link:hover{
+    background: #687a8f;
+}
+
+footer{
+    text-align: center;
+    padding: 10px;
+    background-color: #687a8f;
+    
+}
+
+.project-title > h3 > a{
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (max-width: 600px){
+    .prject-title{
+        float: left;
+    }
+    
+}
